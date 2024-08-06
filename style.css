@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-image: url(pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#digital-clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(36, 35, 35, 0.5);
+    padding: 20px;
+}
